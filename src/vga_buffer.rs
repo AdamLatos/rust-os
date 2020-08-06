@@ -146,7 +146,7 @@ fn test_println_simple() {
 
 #[test_case]
 fn test_println_many() {
-    for _ in 0..200 {
+    for _ in 0..70 {
         println!("test_println_many output");
     }
 }
